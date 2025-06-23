@@ -12,7 +12,7 @@ def plotCorrelationResult(signal1, signal2, gccResult, lags):
 
     plt.subplot(2, 1, 2)
     plt.plot(lags, gccResult)
-    plt.title("Correlación cruzada espectral")
+    plt.title("Correlación cruzada")
     plt.xlabel("Retardo (muestras)")
     plt.ylabel("Amplitud")
     plt.grid(True)
